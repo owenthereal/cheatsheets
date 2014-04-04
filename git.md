@@ -1,36 +1,91 @@
-# ZSH Git Alias
+ZSH Git Alias
+=============
 
-* gst = git status
-* gd = git diff
-* gdc = git diff --cached
-* gl = git pull
-* gup = git pull --rebase
-* gp = git push
-* gd = git diff
-* gc = git commit -v
-* gc! = git commit -v --amend
-* gca = git commit -v -a
-* gca! = git commit -v -a --amend
-* gcmsg = git commit -m
-* gco = git checkout
-* gr = git remote
-* grbi = git rebase -i
-* gb = git branch
-* gba = git branch -a
-* gcount = git shortlog -sn
-* gcp = git cherry-pick
-* glg = git log --stat --max-count=10
-* glgg = git log --graph --max-count=10
-* glo = git log --oneline --decorate --color
-* gss = git status -s
-* ga = git add
-* gm = git merge
-* grhh = git reset HEAD --hard
-* gmt = git mergetool --no-prompt
-* gg = git gui citool
-* gk = gitk --all --branches
+Git alias shortcuts in ZSH.
 
-alias gsts='git stash show --text'
-alias gsta='git stash'
-alias gstp='git stash pop'
-alias gstd='git stash drop'
+## gst
+gst = git status
+
+## gd
+gd = git diff
+
+## gdc
+gdc = git diff --cached
+
+## gl
+gl = git pull
+
+## gup
+gup = git pull --rebase
+
+## gp
+gp = git push
+
+## gd
+gd = git diff
+
+## gc
+gc = git commit -v
+
+## gc!
+gc! = git commit -v --amend
+
+## gca
+gca = git commit -v -a
+
+## gca!
+gca! = git commit -v -a --amend
+
+## gcmsg
+gcmsg = git commit -m
+
+## gco
+gco = git checkout
+
+## gr
+gr = git remote
+
+## grbi
+grbi = git rebase -i
+
+## gb
+gb = git branch
+
+## gba
+gba = git branch -a
+
+## gcount
+gcount = git shortlog -sn
+
+## gcp
+gcp = git cherry-pick
+
+## glg
+glg = git log --stat --max-count=10
+
+## glgg
+glgg = git log --graph --max-count=10
+
+## glo
+glo = git log --oneline --decorate --color
+
+## gss
+gss = git status -s
+
+## ga
+ga = git add
+
+## gm
+gm = git merge
+
+## grhh
+grhh = git reset HEAD --hard
+
+## gmt
+gmt = git mergetool --no-prompt
+
+## gg
+gg = git gui citool
+
+## gk
+gk = gitk --all --branches
