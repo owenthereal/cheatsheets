@@ -1,5 +1,7 @@
-ZSH Git Alias
-=============
+---
+title: ZSH Git Alias
+layout: default
+---
 
 Git alias shortcuts in ZSH.
 
